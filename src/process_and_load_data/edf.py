@@ -11,11 +11,14 @@ def load_edf_file(file_name):
     #annotations = pyedflib.highlevel.read_edf_header(file_name, read_annotations=True)
     return signals, signal_headers, header
 
+
 def annonomize_edf_data(signals_headers):
+    #@todo deze functie is nog LAAAANG niet af
     annominized_signal_headers = signals_headers
     return annominized_signal_headers
 
 def structure_annomized_edf_data(signals):
+    #@todo deze functie is ook nog LAAANG niet af
     return signals
 
 if __name__ == '__main__':
