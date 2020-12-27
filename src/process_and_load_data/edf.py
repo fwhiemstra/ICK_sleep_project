@@ -15,6 +15,8 @@ def annonomize_edf_data(signals_headers):
     annominized_signal_headers = signals_headers
     return annominized_signal_headers
 
+def structure_annomized_edf_data(signals):
+    return signals
 
 if __name__ == '__main__':
     # file_name  = r'C:\Users\floor\Documents\Studie\Master Technical Medicine\TM jaar 3\Afstuderen\EDF files\ins6.edf'
