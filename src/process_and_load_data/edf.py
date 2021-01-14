@@ -19,6 +19,7 @@ def annonomize_edf_data(signals_headers):
     annominized_signal_headers = signals_headers
     return annominized_signal_headers
 
+
 def structure_annomized_edf_data(signals):
     #@todo deze functie is ook nog LAAANG niet af
     return signals
